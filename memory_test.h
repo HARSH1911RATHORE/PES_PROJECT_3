@@ -20,5 +20,5 @@ uint32_t * display_memory(uint32_t *Block_Pointer,uint8_t Data_words_to_read );
 void free_words(uint32_t *Block_Pointer,unsigned int length);
 uint32_t * allocate_words(unsigned int length);
 int error_code(int err);
-//void log_data(uint32_t * Block_Pointer,uint8_t length);
+
 #endif
