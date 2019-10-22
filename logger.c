@@ -3,7 +3,7 @@
 
 int log_enable=1;
 int log_disable=0;
-int status=0;
+int status=1;
 int log_status(int status)
 {
 	if (status==log_enable)
