@@ -1,4 +1,7 @@
 ### PES_PROJECT_3
+
+###HARSH RATHORE AND UTKARSH DWIVEDI
+
 ##The PROJECT consists of three parts:
 1)A suite of memory tests, a pattern generator, a logger, an LED control, a main program to run an example test set
 2)UML Activity and State Diagrams
@@ -95,4 +98,19 @@ Consists of a UML Activity Diagram and a UML Sequence Diagram for the above test
 Consists of Unit Test set (unitTest.c/unitTest.h) for the application.
 Using μcUnit example of unit tests is done for some of the memory test functions. These tests should confirm some normal and abnormal responses for some subset of the memory test functions.
 
-reference:https://github.com/ESultanik/mtwister
+##ISSUES AND OBERRVATIONS:
+--Issues like warnings of the UML Libraries when project was created with added with UNIT Testing. Therefore, contains a different zip folder with the name PROJECT WITH UNIT TESTING.
+--Creating differnet .c files and calling them within a particular .c file. Used .h file which was declared to the .c file
+--Led was not working earlier and causing the code to stop at initialization when led.c was integrated. This was removed by making the data types of the ccounter and the the count value same. Making this it stopped looping again and again and ran perfectly.
+--UML sequence diagram when downloaded and copied into the device folder automatically got cropped.
+--Used flag for log enable and disable and put the status a one or zero to display contents of log file.
+--Understanding the return type of function int*. We took as function pointer earlier and late changed it to return the address.
+--Warnings earlier becuase of different data types which were cleared by making the data type same everywhere.
+--Understanding how can we kmow whether buffer has been allocated or no to display the free warning if was not allocated. Then initialized the buffer to 0 if it was allocated before freeing.
+
+
+REAMRRK: ADDED PDF ON TIME ON CANVAS IN PDF UPLOAD SECTION
+
+reference for pattern genaerator:
+--https://github.com/ESultanik/mtwister
+--TDD calss slides for UNIT TEST AND LOGGER SLIDE PES C19 L12
